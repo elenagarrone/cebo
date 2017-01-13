@@ -168,14 +168,6 @@ body {
   }
 }
 
-.boxy .col-sm-6 {
-  border-left: 1px solid #e5e5e5;
-}
-
-.boxy .col-sm-6:first-child {
-  border-left: 0;
-}
-
 .box {
   text-align: center;
   padding: 20px;
@@ -269,4 +261,10 @@ h1 {
 
 .tick {
   width: 140px;
+}
+
+.btn.btn-secondary.upload-file {
+  background-color: white;
+  color: black;
+  border: 1px solid #2A84a8;
 }
