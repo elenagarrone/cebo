@@ -46,6 +46,7 @@ header nav ul li {
   font-size: 16px;
   color: white;
   padding: 19px;
+  cursor: pointer;
 }
 
 header nav ul li:hover {
@@ -222,4 +223,50 @@ body {
 
 h1 {
   padding: 10px 0px 15px;
+}
+
+.double-spaced {
+  margin-top: 20px;
+}
+
+.btn.btn-secondary {
+  background-color: #2A84a8;
+  color: white;
+}
+
+.btn.btn-secondary:hover {
+  background-color: #277696;
+}
+
+.spaced-25 {
+  margin-top: 25px;
+}
+
+.not-spaced {
+  margin: 0;
+}
+
+.wrapper-conf {
+  text-align: center;
+  width: 340px;
+  height: 255px;
+  padding: 20px;
+  position: absolute;
+  top: 50%;
+  top: calc(50% - 130px);
+  left: 38%;
+  left: calc(50% - 170px);
+}
+
+.text-wrapper {
+  margin-top: 25px;
+  font-size: 16px;
+}
+
+.rel {
+  position: relative;
+}
+
+.tick {
+  width: 140px;
 }
