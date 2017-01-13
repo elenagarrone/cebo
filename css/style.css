@@ -167,14 +167,17 @@ body {
   }
 }
 
-.box {
-  text-align: center;
+.boxy .col-sm-6 {
   border-left: 1px solid #e5e5e5;
-  padding: 20px;
 }
 
-.boxy .col-sm-6:first-child .box {
+.boxy .col-sm-6:first-child {
   border-left: 0;
+}
+
+.box {
+  text-align: center;
+  padding: 20px;
 }
 
 .well {
@@ -194,4 +197,29 @@ body {
 
 .btn.active {
   box-shadow: none;
+}
+
+.btn.btn-secondary.quote {
+  background-color: #319036;
+  color: white;
+  width: 100%;
+  font-size: 16px;
+}
+.btn.btn-secondary.quote:hover {
+  background-color: #297a2d;
+}
+.button-box {
+  display: none;
+  text-align: center;
+}
+.button-box.active {
+  display: block;
+}
+
+.button-box a {
+  margin: 55px 0px 15px;
+}
+
+h1 {
+  padding: 10px 0px 15px;
 }
